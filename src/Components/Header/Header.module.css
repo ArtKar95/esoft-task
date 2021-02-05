@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  grid-area: h;
+  background-color: rgb(75, 68, 68);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  user-select: none;
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+a:hover {
+  color: rgb(157, 157, 161);
+}
+
+.activeLink {
+  color: black;
+  text-shadow: 2px 2px 9px rgb(230, 222, 238);
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  a {
+    font-size: 14px;
+  }
+
+  .activeLink {
+    font-size: 16px;
+  }
+}

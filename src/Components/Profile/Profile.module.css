@@ -1,0 +1,16 @@
+.profile {
+  color: rgb(153, 37, 72);
+  text-align: center;
+}
+
+h1 {
+  padding-top: 25px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 26px;
+  }
+}
